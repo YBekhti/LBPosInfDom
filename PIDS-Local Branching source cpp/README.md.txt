@@ -50,11 +50,12 @@ To run the algorithm on an instance (using an edge list file):
 - `-b <double>` : Beta (destruction percentage) (default: 0.4)
 - `-k <int>`    : K (Hamming Distance allowed during local search) (default: 2)
 
-**Instances :**
+**Instances:**
 The experimental instances used in this work are available in the GitHub Releases section.
 
 **Example:**
 ```bash
 ./lb_pids -i instances/Grafo30.txt -t 600 -ti 10 -td 10 -a 0.05 -b 0.4 -k 20
 ```
+
 
